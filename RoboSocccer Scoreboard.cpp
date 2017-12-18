@@ -83,7 +83,7 @@ void display_detected(Mat img, Mat det)
 int main()
 {
 	Mat frame;
-	VideoCapture vc("C:\\new.mp4");
+	VideoCapture vc("new.mp4");     //Link to the video is given
 	namedWindow("Win", WINDOW_NORMAL);
 
 	while (1)
