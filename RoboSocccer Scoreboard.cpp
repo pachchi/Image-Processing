@@ -83,7 +83,7 @@ void display_detected(Mat img, Mat det)
 int main()
 {
 	Mat frame;
-	VideoCapture vc("new.mp4");     //Link to the video is given
+	VideoCapture vc("new.mp4");     //Link to the video- https://drive.google.com/open?id=0ByXHIzRXNFdaanhKQm1vbDVFM0U
 	namedWindow("Win", WINDOW_NORMAL);
 
 	while (1)
